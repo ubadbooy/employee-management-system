@@ -1,0 +1,1 @@
+{"name": "employee-management-system", "version": "1.0.0", "description": "A simple employee management system.", "main": "index.js", "scripts": { "test": "echo 'Error: no test specified' && exit 1" }, "author": "ubadbooy", "license": "ISC"}
