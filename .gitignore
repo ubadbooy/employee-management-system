@@ -1,0 +1,1 @@
+# Ignore node_modules\nnode_modules/\n\n# Ignore build files\nbuild/\n\n# Ignore log files\nlogs/\n*.log\n
