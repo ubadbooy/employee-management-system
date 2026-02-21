@@ -1,55 +1,42 @@
-# 💼 سیستم مدیریت کارمندان
+# Employee Management System
 
-یک وب‌اپلیکیشن کامل برای مدیریت کارمندان با ورود ایمن و امکانات متنوع.
+## Overview
+This project is designed to manage employee records, including their details, attendance, and performance evaluations.
 
-## 🎯 ویژگی‌ها
+## Features
+- Add, update, and delete employee records.
+- View employee details and performance evaluations.
+- Track attendance and leave requests.
 
-✅ **ورود ایمن** - نام کاربری و رمز عبور شخصی  
-✅ **پروفایل شخصی** - مشاهده و ویرایش اطلاعات  
-✅ **درخواست‌ها** - مرخصی و مأموریت  
-✅ **گزارش‌ها** - حضور و غیاب  
-✅ **طراحی واکنش‌پذیر** - کار کامل با موبایل
+## Technologies Used
+- Python
+- Flask
+- SQLAlchemy
+- HTML/CSS
+- JavaScript
 
-## 🚀 نصب و راه‌اندازی
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ubadbooy/employee-management-system.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd employee-management-system
+   ```
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### بک‌اند (Backend)
+## Usage
+To run the application, execute:
 ```bash
-cd backend
-npm install
-npm run dev
+python app.py
 ```
 
-### فرانت‌اند (Frontend)
-```bash
-cd frontend
-npm install
-npm start
-```
+## Contribution
+Contributions are welcome! Please submit a pull request.
 
-## 📋 نیازمندی‌ها
-
-- Node.js v14+  
-- MongoDB  
-- npm یا yarn
-
-## 🔐 احراز هویت
-
-- استفاده از JWT برای احراز هویت  
-- رمز عبور رمزگذاری شده با bcryptjs
-
-## 📁 ساختار پروژه
-
-employee-management-system/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── pages/
-│   │   ├── components/
-│   │   └── App.jsx
-└── README.md
-
-## 📝 لایسنس MIT
+## License
+This project is licensed under the MIT License.
